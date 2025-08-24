@@ -70,7 +70,7 @@ export default function NavBar() {
           
           {/* Buttons Container */}
           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-            <a href='https://wa.me/212620394795' target='blank' className="px-4 py-2 bg-[#FBB041] text-black rounded-full hover:bg-black hover:text-white transition duration-300 font-medium">
+            <a href='#Services' target='blank' className="px-4 py-2 bg-[#FBB041] text-black rounded-full hover:bg-black hover:text-white transition duration-300 font-medium">
               Shop Now
             </a>
           </div>

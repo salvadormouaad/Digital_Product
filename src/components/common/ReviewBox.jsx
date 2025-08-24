@@ -9,7 +9,7 @@ export default function ({name,stars,Cmt,photo}) {
          <img src={photo} alt="" className='w-15'  />
 
           <div className="flex flex-col gap-1">
-            <div className="flex gap-0 items-center -mt-1">
+            <div className="flex gap-0 items-center mt-1">
               <p className="font-semibold cursor-pointer">{name}</p>
               
             </div>
@@ -19,7 +19,7 @@ export default function ({name,stars,Cmt,photo}) {
       <div classname="mt-4 text-[#005ef6] text-xl tracking-[2px]">
         {stars}
       </div>
-      <div classname="italic mt-2 text-[18px] md:w-60 w-41 text-[#4b587c] font-normal">
+      <div classname="italic  mt-2 text-[18px] md:w-60 w-41  text-[#4b587c] font-normal">
        {Cmt}
       </div>
      

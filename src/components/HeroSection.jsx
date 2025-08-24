@@ -32,7 +32,7 @@ export default function HeroSection() {
 
       {/* Button - 768px optimization */}
       <div className='flex justify-center md:justify-start md:w-60 w-full md:ml-[10%] lg:ml-[15%]'>
-        <a href='https://wa.me/212620394795' target='blank' className="px-6 py-2 md:px-8 md:py-3 bg-[#FBB041]  text-black rounded-full hover:bg-black hover:text-white transition duration-300 font-medium text-base md:text-lg">
+        <a href='#Services' target='blank' className="px-6 py-2 md:px-8 md:py-3 bg-[#FBB041]  text-black rounded-full hover:bg-black hover:text-white transition duration-300 font-medium text-base md:text-lg">
           Shop Now
         </a>
       </div>

@@ -1,4 +1,5 @@
 import logo from '../assets/Utaro No Bg.png'
+import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer className="bg-[#1a1c1e] text-gray-300 pt-10 pb-8 px-4 max-md:text-center">
@@ -86,12 +87,12 @@ export default function Footer() {
           </p>
           
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-500 hover:text-[#FBB041] text-sm transition duration-300">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-500 hover:text-[#FBB041] text-sm transition duration-300">
+            <Link to="/Terms" className="text-gray-500 hover:text-[#FBB041] text-sm transition duration-300">
               Terms of Service
-            </a>
+            </Link>
+            <Link to="/Privacy" className="text-gray-500 hover:text-[#FBB041] text-sm transition duration-300">
+               Privacy Policy
+            </Link>
             
           </div>
         </div>

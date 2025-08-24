@@ -59,8 +59,8 @@ export default function NavBar() {
           p-4 md:p-0
           z-40
         `}>
-          <a href='#' className="text-white md:text-white cursor-pointer font-medium transition duration-300">Home
-          </a>
+          <Link to="/" className="text-white md:text-white cursor-pointer font-medium transition duration-300">Home
+          </Link>
           <a href='#Services' className="text-white md:text-white cursor-pointer font-medium transition duration-300">
             Services
           </a>

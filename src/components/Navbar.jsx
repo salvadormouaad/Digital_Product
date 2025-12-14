@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../../assets/utarologo2.png';
+import Logo from '../../public/assets/utarologo2.png';
 import '../App.css';
 import { Link } from 'react-router-dom';
 

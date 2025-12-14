@@ -1,5 +1,5 @@
 import React from 'react';
-import Bg from "../../assets/14827_1.png";
+import Bg from "../../public/assets/14827_1.png";
 
 export default function Footer() {
   return (

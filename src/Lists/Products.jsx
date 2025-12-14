@@ -40,8 +40,8 @@ const ActiveProducts = [
         name:"Youtube_Premium",
         image:"/assets/Ytb_premium_logo.png",
         TopSales:false,
-        New : false,
-        Soon : true,
+        New : true,
+        Soon : false,
     },
     {
         name:"Apple_Tv",

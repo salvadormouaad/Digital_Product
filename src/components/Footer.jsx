@@ -1,6 +1,10 @@
 // import logo from '../../assets/Utaro No Bg.png'
 import { Link } from 'react-router-dom';
 export default function Footer() {
+  const navItems = [
+  { label: 'Home', path: '/' }, // Path for Home
+  { label: 'Contact', path: '#contact' }, // Path for Contact
+];
   return (
     <footer className="bg-[#1a1c1e] text-gray-300 pt-10 pb-8 px-4 max-md:text-center">
       <div className="max-w-7xl mx-auto">
@@ -22,17 +26,17 @@ export default function Footer() {
           <div className='max-md:text-center'>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-3 max-md:text-center">
-              {['Home', 'Contact'].map((item) => (
-                <li key={item}>
-                  <a 
-                    href="#" 
-                    className="hover:text-[#FBB041] transition duration-300 flex items-center max-md:justify-center"
-                  >
-                    <span className="w-2 h-2 bg-[#FBB041] rounded-full mr-2"></span>
-                    {item}
-                  </a>
-                </li>
-              ))}
+                {navItems.map((item) => (
+                  <li key={item.label}>
+                    <a 
+                      href={item.path} // <--- This is the key change!
+                      className="hover:text-[#FBB041] transition duration-300 flex items-center max-md:justify-center"
+                    >
+                      <span className="w-2 h-2 bg-[#FBB041] rounded-full mr-2"></span>
+                      {item.label}
+                    </a>
+                  </li>
+            ))}
             </ul>
           </div>
 

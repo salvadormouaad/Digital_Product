@@ -47,8 +47,8 @@ const ActiveProducts = [
         name:"Apple_Tv",
         image:"/assets/Apple_Tv_logo.png",
         TopSales:false,
-        New : false,
-        Soon : true,
+        New : true,
+        Soon : false,
     },
     {
         name:"Canva",

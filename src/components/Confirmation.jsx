@@ -92,7 +92,7 @@ export default function Confirmation({ offer, onBack }) {
                       <option className='text-xs' value="" disabled>Choose Your Payment Method</option>
                       <option className='text-xs' value="Bank Transfer (CIH , Attijari ... )">Bank Transfer (CIH , Attijari ... )</option>
                       <option className='text-xs' value="Cash Plus">Cash Plus</option>
-                      <option className='text-xs' value="Orange Money">Orange Money / Inwi Money</option>
+                      <option className='text-xs' value="Orange Money / Inwi Money">Orange Money / Inwi Money</option>
                     </select>
                   </div>
 

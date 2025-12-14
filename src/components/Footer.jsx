@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-white">
-              <span className="text-[#FBB041]">Utaro</span>_Shop
+              <span className="text-[#FBB041]">Utaro</span> Shop
                 {/* <img src={{ logo }} alt="" /> */}
             </h3>
             <p className="text-gray-400">
@@ -22,7 +22,7 @@ export default function Footer() {
           <div className='max-md:text-center'>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-3 max-md:text-center">
-              {['Home', 'Services', 'About', 'Contact'].map((item) => (
+              {['Home', 'Contact'].map((item) => (
                 <li key={item}>
                   <a 
                     href="#" 

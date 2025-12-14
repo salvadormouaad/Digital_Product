@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Utaro No Bg.png';
+import Logo from '../assets/utarologo2.png';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
@@ -10,28 +10,39 @@ export default function NavBar() {
     <div>
       <nav className="flex flex-col md:flex-row items-center justify-center p-2 sticky top-0 z-30">
         {/* Logo and Mobile Menu Button */}
-        <div className="flex items-center justify-between w-full md:w-auto">
+        <div className="flex items-center justify-between lg:mt-5 w-full md:w-auto">
           <a href='/' >
             <img 
               src={Logo} 
               alt="Company Logo" 
-              className="h-20 w-auto md:mr-95" 
+              className="h-10 md:ml-2 max-sm:ml-1 max-sm:h-12 max-sm:mt-1 w-auto md:mr-95" 
             />
           </a>
+          <div className="flex md:hidden flex-col mr-3 mt-2 sm:flex-row space-y-2 sm:space-y-0 sm:space-x-10">
+            <a href='#contact' className="px-5 py-1 bg-[#FBB041] text-black rounded-sm hover:bg-black hover:text-white transition duration-300 font-medium">
+              Contact
+            </a>
+          </div>
+          {/* <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+            <a href='#Contact' target='blank' className="px-5 py-1 bg-[#FBB041] text-black rounded-sm hover:bg-black hover:text-white transition duration-300 font-medium">
+              Contact
+            </a>
+          </div> */}
           {/* Mobile Menu Button (hidden on desktop) */}
-          <button 
+          {/* <button 
             className="md:hidden text-gray-700 focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="h-6 max-sm:w-12 max-sm:h-12 w-6" fill="none" viewBox="0 0 24 24" stroke="#FBB041">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
-          </button>
+          </button> */}
         </div>
 
-        {/* Navigation Links - Toggleable on mobile */}
+        
         <div className={`
           ${isMenuOpen ? 'flex' : 'hidden'} 
+          l
           md:flex 
           flex-col 
           md:flex-row 
@@ -39,14 +50,13 @@ export default function NavBar() {
           text-center
           space-y-3 
           md:space-y-0 
-          md:ml-30 
-          md:space-x-8 
+          md:ml-10
+          md:space-x-4
           w-full 
           max-md:h-90
           md:w-auto 
-          mt-5
           max-md: justify-center 
-          md:mt-0
+          md:mt-5
           bg-black/90 backdrop-blur-sm
           md:bg-transparent
           shadow-lg md:shadow-none
@@ -59,19 +69,19 @@ export default function NavBar() {
           p-4 md:p-0
           z-40
         `}>
-          <Link to="/" className="text-white md:text-white cursor-pointer font-medium transition duration-300">Home
+          {/* <Link to="/" className="text-white md:text-white cursor-pointer font-medium transition duration-300">Home
           </Link>
           <a href='#Services' className="text-white md:text-white cursor-pointer font-medium transition duration-300">
-            Services
+            Reviews
           </a>
           <a href='#Contact' className="text-white md:text-white cursor-pointer font-medium transition duration-300">
             Contact
-          </a>
+          </a> */}
           
           {/* Buttons Container */}
           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-            <a href='#Services' target='blank' className="px-4 py-2 bg-[#FBB041] text-black rounded-full hover:bg-black hover:text-white transition duration-300 font-medium">
-              Shop Now
+            <a href='#contact'  className="px-5 py-1 bg-[#FBB041] text-black rounded-sm hover:bg-black hover:text-white transition duration-300 font-medium">
+              Contact
             </a>
           </div>
         </div>

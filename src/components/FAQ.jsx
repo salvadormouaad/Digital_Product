@@ -27,25 +27,25 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto py-12 px-4 lg:mt-30 sm:px-6 lg:px-8">
-      <h2 className="text-3xl font-bold  text-center text-Black mb-10">
+    <div className="bg-[#161616] mx-full py-20 lg:pt-27 lg:pb-27 max-sm:px-5  sm:px-6 lg:px-70">
+      <h2 className="text-3xl font-[Montserrat] font-bold  text-center text-white mb-10">
         Frequently Asked <span className="text-yellow-500">Questions</span>
       </h2>
       
-      <div className="space-y-4 lg:mt-20">
+      <div className="space-y-5 lg:mt-20">
         {faqs.map((faq, index) => (
           <div 
             key={index} 
-            className="border-b border-red-600 pb-4 transition-all duration-200"
+            className="border-b border-[#FBB041] pb-4 transition-all duration-200"
           >
             <button
               onClick={() => toggleFAQ(index)}
               className="flex justify-between items-center w-full text-left focus:outline-none"
             >
-              <span className={`text-lg font-medium ${activeIndex === index ? 'text-orange-400' : 'text-black'}`}>
+              <span className={`font-[Montserrat]text-lg font-medium ${activeIndex === index ? 'text-[#FBB041]' : 'text-white'}`}>
                 {faq.question}
               </span>
-              <span className="text-red-500 text-2xl">
+              <span className="text-[#FBB041] text-2xl">
                 {activeIndex === index ? '−' : '+'}
               </span>
             </button>
@@ -53,7 +53,7 @@ const FAQ = () => {
             <div 
               className={`overflow-hidden transition-all duration-300 ease-in-out ${activeIndex === index ? 'max-h-40 mt-3' : 'max-h-0'}`}
             >
-              <p className="text-black pl-2">
+              <p className="  font-[Montserrat] text-white pl-2">
                 {faq.answer}
               </p>
             </div>

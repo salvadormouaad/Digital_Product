@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 import Active_Reviews from '../Lists/Reviews';
-import photo from "../assets/Anonyme.png";
+import photo from "../../assets/Anonyme.png";
 
 export default function Reviews() {
   return (

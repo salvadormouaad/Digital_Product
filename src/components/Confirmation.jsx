@@ -13,7 +13,7 @@ export default function Confirmation({ offer, onBack }) {
     const message = `
 🛒 *New Order Confirmation*
 
-📦 Product: ${item.name || "Netflix Account"}
+📦 Product: ${item.name}
 ⏱ Duration: ${item.Period || "Unknown"}
 💰 Price: ${item.price} DH
 💳 Payment Method: ${paymentMethod || "Not selected yet"}

@@ -9,7 +9,7 @@ const ActiveProducts = [
     },
     {
         name:"Spotify",
-        image:"/assets/Spotify_logo.png",
+        image:"/assets/spotify_logo.png",
         TopSales:true,
         New : false,
         Soon : false,

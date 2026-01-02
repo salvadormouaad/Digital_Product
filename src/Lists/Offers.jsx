@@ -28,21 +28,21 @@ const Offers = {
     { Name:'Chatgpt' ,Period: '3 Month (Prv)', price: '260', image : "/assets/ChatGpt_small.png" , altImage:"/assets/Chatgpt_logo.png"},
   ],
   Apple_Tv: [
-    { Period: '1 Month', price: '40', image : "/assets/AppleMusic_small.png" , altImage:"/assets/Apple_Tv_logo.png"},
-    { Period: '3 Month', price: '70', image : "/assets/AppleMusic_small.png"  , altImage:"/assets/Apple_Tv_logo.png"},
-    { Period: '6 Month', price: '120', image : "/assets/AppleMusic_small.png" , altImage:"/assets/Apple_Tv_logo.png"},
+    { Name:'Apple_Tv',Period: '1 Month', price: '40', image : "/assets/AppleMusic_small.png" , altImage:"/assets/Apple_Tv_logo.png"},
+    { Name:'Apple_Tv',Period: '3 Month', price: '70', image : "/assets/AppleMusic_small.png"  , altImage:"/assets/Apple_Tv_logo.png"},
+    { Name:'Apple_Tv',Period: '6 Month', price: '120', image : "/assets/AppleMusic_small.png" , altImage:"/assets/Apple_Tv_logo.png"},
     
   ],
   Youtube_Premium: [
-    { Period: '1 Month', price: '55', image : "/assets/Youtube_small.png" },
-    { Period: '3 Month', price: '140', image : "/assets/Youtube_small.png" },
-    { Period: '6 Month', price: '200', image : "/assets/Youtube_small.png" },
-    { Period: '1 Year', price: '300', image : "/assets/Youtube_small.png" },
+    { Name:'youtube',Period: '1 Month', price: '55', image : "/assets/Youtube_small.png" },
+    { Name:'youtube',Period: '3 Month', price: '140', image : "/assets/Youtube_small.png" },
+    { Name:'youtube',Period: '6 Month', price: '200', image : "/assets/Youtube_small.png" },
+    { Name:'youtube',Period: '1 Year', price: '300', image : "/assets/Youtube_small.png" },
   ],
   Canva: [
-    { Period: '1 Month', price: '35', image : "/assets/Canva_small.png",  altImage:"/assets/Canva_logo.png" },
-    { Period: '3 Months', price: '50', image : "/assets/Canva_small.png" ,  altImage:"/assets/Canva_logo.png"},
-    { Period: '6 Months', price: ' 80', image : "/assets/Canva_small.png",  altImage:"/assets/Canva_logo.png" },
+    { Name:'Canva',Period: '1 Month', price: '35', image : "/assets/Canva_small.png",  altImage:"/assets/Canva_logo.png" },
+    { Name:'Canva',Period: '3 Months', price: '50', image : "/assets/Canva_small.png" ,  altImage:"/assets/Canva_logo.png"},
+    { Name:'Canva',Period: '6 Months', price: ' 80', image : "/assets/Canva_small.png",  altImage:"/assets/Canva_logo.png" },
   ],
   
 };
